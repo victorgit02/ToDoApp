@@ -1,0 +1,31 @@
+/* .EmptyContainer {
+    width:fit-content;
+  display: inline-block;
+  justify-content: center;
+    background-color:aliceblue;
+}
+
+.CrearTodo  {
+    background-color: var(--verde);
+    text-align: center;
+    font-size: 18px;
+    border-radius: 20px;
+    border: solid 2px;
+} */
+
+.EmptyContainer {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.CrearTodo {
+    background-color: var(--verde);
+    text-align: center;
+    font-size: 18px;
+    border-radius: 20px;
+    border: solid 2px;
+    padding: 10px;
+}

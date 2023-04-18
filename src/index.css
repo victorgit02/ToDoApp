@@ -1,0 +1,21 @@
+:root {
+  --amarillo: #C8A766;
+  --verde:#89BA49;
+  --gris: #B0B7A8;
+  --dark: #282323;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--gris);
+  color: var(--dark);
+  font-family: 'Kanit', sans-serif;
+}
+
+#root {
+  margin: 0px 24px;
+  position: relative;
+  min-height: 100vh;
+ 
+}
+
