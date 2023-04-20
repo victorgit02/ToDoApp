@@ -9,9 +9,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.22.19"
   },
-  "homepage": "https://victorgit02.github.io/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -19,12 +19,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
@@ -39,7 +33,9 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^5.12.0",
+    "gh-pages": "^5.0.0",
     "ghpages": "^0.0.10"
-  }
-
+  },
+  "homepage": "https://victorgit02.github.io/"
 }
